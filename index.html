@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#17220e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Pistacho Clicker</title>
+  <link rel="icon" id="favicon" href="data:," />
+  <script type="module" crossorigin src="./assets/index-475LJ4cO.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-zhgNgm_N.css">
+</head>
+<body>
+  <canvas id="fx"></canvas>
+  <div id="frenzy-glow"></div>
+
+  <header id="top">
+    <div class="counter">
+      <div class="big"><img class="pico" id="pist-ico" alt="" draggable="false"> <span id="c-pist">0</span></div>
+      <div class="sub" id="c-pist-sub">pistachos cosechados</div>
+    </div>
+    <div class="counter coins">
+      <div class="big" id="c-coins">🪙 0</div>
+      <div class="sub" id="c-rate">0 por segundo</div>
+    </div>
+    <nav>
+      <button id="btn-ach" class="nav-btn">🏆 <span id="ach-count">0</span></button>
+      <button id="btn-nave" class="nav-btn hidden">🛸 Pistachero</button>
+      <button id="btn-opts" class="nav-btn">⚙️</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="play">
+      <div id="buffs"></div>
+      <div id="tabs"></div>
+      <div id="chain"></div>
+      <div id="arena">
+        <div id="big-wrap"><div id="big">🌳</div><div id="pile"></div></div>
+        <div id="verb">¡Sacude el árbol!</div>
+        <div id="combo-wrap"><div id="combo">COMBO x1</div><div id="combobar"><i></i></div></div>
+        <div id="station-info"></div>
+        <div id="hint"></div>
+      </div>
+      <div id="news"><span id="news-text">Bienvenido a tu pistachar. Haz clic en el árbol.</span></div>
+    </section>
+
+    <aside id="shop">
+      <div id="shop-head">
+        <h2 id="shop-title">Tienda</h2>
+        <div id="bulk"><button data-n="1" class="on">x1</button><button data-n="10">x10</button><button data-n="100">x100</button></div>
+      </div>
+      <div id="upgrades"></div>
+      <div id="buildings"></div>
+    </aside>
+  </main>
+
+  <div id="golden" title="¡Atrápalo!"></div>
+  <div id="banner"></div>
+  <div id="toasts"></div>
+  <div id="tooltip"></div>
+  <div id="modal" class="hidden"><div id="modal-box"><button id="modal-close">✕</button><div id="modal-body"></div></div></div>
+
+</body>
+</html>
